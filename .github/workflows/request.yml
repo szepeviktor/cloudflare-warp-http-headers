@@ -9,4 +9,4 @@ jobs:
         steps:
         - uses: boywithkeyboard/warp@v1
         - run: |
-            curl -vv https://entpajy5m2e8k.x.pipedream.net
+            curl -vv http://mail.szepe.net:8080/reqy
