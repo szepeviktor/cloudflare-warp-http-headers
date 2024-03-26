@@ -6,7 +6,8 @@ on:
 jobs:
     warp:
         runs-on: ubuntu-latest
+        timeout-minutes: 1
         steps:
         - uses: boywithkeyboard/warp@v1
         - run: |
-            curl -vv http://mail.szepe.net:8080/reqy
+            curl -vv4 http://mail.szepe.net:8080/reqy
